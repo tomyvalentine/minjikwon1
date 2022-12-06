@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        
+        <title>My Profile</title>
+        <style>
+            ul{
+            list-style: none;
+            position:absolute;
+            top:-3px;
+            right:13px;
+            z-index:1;
+            border:solid 3px pink;
+            padding-left:0px;
+            border-radius: 5px;
+            margin-right:560px;
+            margin-top:35px;}
+
+
+            li{float:left;}
+            li a {text-decoration: none;
+                  color:white;
+                  background-color:pink;
+                  display:block;
+                  width:180px;
+                  height:60px;
+                  padding-top:18px;
+                  padding-bottom:32px;
+                  text-align:center;
+                  font-size:20px;}
+            li a:hover {background-color:lightgreen;}
+            li a.active {background-color:hotpink;}
+        
+
+            * {
+                box-sizing: border-box;
+            }
+
+           .header { 
+            position:relative;
+            border:5px solid pink;
+            display:flex;
+            padding-bottom:50px;
+            padding-top:50px;
+            background-color:black;
+           }
+
+           .favicon{position:absolute; top:30px; left: 18px;}
+
+           .heading {color:pink;
+            padding-left:20px;
+            padding-top:20px;
+            margin-top:50px;}
+
+
+           
+           .main-body {
+            border:5px solid pink;
+            background-color:black;
+            display:flex;
+            flex-direction: row;
+            padding-bottom:30px;
+           }
+
+           .aside1 {flex:1;background-color:black;
+                    border:dashed 2px black}
+
+           .aside2 {flex:2;
+                 border:solid 2px black;
+                }
+
+           .aside3 {flex:3;
+                    border:solid 2px black;}    
+
+           .text{background-color:black;
+                     border:solid 2px black;
+                     padding-left:20px;
+                     padding-top:30px;
+                    padding-right:20px;}
+
+
+           .footer {
+            display:flex;
+            padding-bottom:50px;
+            padding-top:50px;
+            border:5px solid pink; 
+            background-color: black;
+           }
+
+           
+           h2{color:pink;}
+           p{color:pink;
+             font-size:20px;
+            line-height: 30px;}
+          
+           .sns{text-align:center;
+                line-height:50px;
+                padding-left:500px;}
+            .color{color:lightgreen;}
+           
+            .ins {color:lightgreen;}
+        </style>
+
+        <style type="text/css">
+            @font-face{font-family:"My Font";
+                        src:url("font/Letter\ Magic.otf")}
+            
+
+            @font-face{font-family:"My Font2"; src:url("font/AbrilFatface-Regular.ttf");}
+                h2{font-family:"My Font2"}
+                .sns{font-family:"My Font2"}
+                .heading{font-family:"My Font2"}
+                li{font-family:"My Font2"}
+                
+
+            @font-face{font-family:"My Font3"; src:url("font/RobotoCondensed-Regular.ttf");}
+                p{font-family:"My Font3"}
+                
+                
+        </style>
+    </head>
+
+    <body>
+    
+        <ul>
+            <li><a href="assignment-bio.html">Bio</a></li>
+            <li><a class="active" href="assignment-page1.html">Professional life</a></li>
+            <li><a href="assignment-page2.html">Personal life</a></li>
+        </ul>
+
+       <div class="header">
+           <h1 class="heading">My profile : About my professional life</h1>
+           <div class="favicon"><img src="favicon_io/favicon-32x32.png"></div>
+       </div>
+        
+      
+       <div class="main-body">
+
+            <div class="aside1">
+                 <img src="image/collage.jpg" style="width:332.2px; height:453px; padding-top:50px;">
+                </div>
+
+            <div class="aside2">
+                <img src="image/film-by-ParkChanwook.jpg" style="width:302px; height:453px; padding-top:50px;">
+            </div>
+
+            <div class="aside3">
+                <img src="image/pattern block.jpg" style="width:488px; height:453px; padding-top:50px;">
+            </div>
+
+            <div class="text">
+                <h2>My work in Elon : illustrations </h2>
+                <p>I'm really enjoying several works in courses so far, because I'm studying illustration and photoshop which
+                    I wanted to learn. I can feel happiness when I create my own things visually. First image is about Collage. 
+                    I gathered several kinds of images and placed it randomly. Second one is Movie Poster called 'The Handmaiden'
+                    I'm big fan of that director and cherry blossom is the most important symbol in the movie. Third one is 
+                    pattern design. I wanted to make the mood of Y2K so I used cherry, cup cake, heart and flower colored in red. I think
+                    it looks attractive. What's your favorite work among these three?!  </p>
+
+            </div>
+        </div>
+
+       <div class="footer">
+            <p class="sns">If you want to know about me more, contact me through my SNS address below.
+                <br> <strong class="ins">Instargram</strong>: sailorminji <strong class="ins">Email:</strong> mkwon@elon.edu 
+            </p>
+       </div>
+    </body>
+</html>
+
